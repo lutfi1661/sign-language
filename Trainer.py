@@ -199,3 +199,5 @@ model.compile(optimizer='Adam', loss='categorical_crossentropy',
 model.fit(X_train, y_train, epochs=2000, callbacks=[tb_callback])
 
 model.summary()
+
+# coba
